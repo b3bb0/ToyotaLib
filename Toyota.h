@@ -6,21 +6,17 @@
 #ifndef Toyota_h
 #define Toyota_h
 
-// Include the standard types
 #include <Arduino.h>
-
 
 // Define the Toyota class
 class Toyota {
 	public:
-	
-	// Constructor
-	Toyota(int PIN, boolean HIGHstatus, boolean LOWstatus);
-	void status();
-	void change();
-	float readData(int);
-	boolean isConnected = false;
-	char* int2bin(unsigned int);
+		Toyota(int PIN, boolean HIGHstatus, boolean LOWstatus);
+		void status();
+		void change();
+		float readData(int);
+		boolean isConnected = false;
+		char* int2bin(unsigned int);
 	
 	private:
 	
