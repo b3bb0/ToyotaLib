@@ -1,0 +1,30 @@
+#######################################################
+# keywords.txt - keywords file for the Toyota library
+
+# Created by Alberto bebbo Capponi
+
+# Released as MIT license
+
+#######################################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Toyota KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+status      KEYWORD2
+change      KEYWORD2
+readData    KEYWORD2
+int2bin     KEYWORD2
+ect2temp    KEYWORD2
+isConnected KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
